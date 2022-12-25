@@ -1,6 +1,6 @@
 const fs = require('fs');
 //console.log(fs);
-fs.writeFile('example.txt', "This is an টেস্ট", (err) => {
+fs.appendFile('example.txt', "This is an টেস্ট. New Text added", (err) => {
     if (err)
         console.log(err);
     else {
