@@ -1,5 +1,5 @@
 const fs = require('fs');
-var text = fs.existsSync('rename.text')
+var text = fs.existsSync('test.txt')
 console.log(text);
 //console.log(fs);
 // fs.exists('rename.text', (result) => {
